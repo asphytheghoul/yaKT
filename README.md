@@ -1,6 +1,6 @@
 <p align="center">
-<img src="assets/raft.jpg" width="400" height="300" alt="RAFT"/>
-<img src="assets/yacht.jpg" width="400" height="300" alt="YACHT"/>
+<img src="assets/raft.jpg" width="200" height="200" alt="RAFT"/>
+<img src="assets/yacht.jpg" width="200" height="200" alt="YACHT"/>
   <h1>Yet Another Kraft - YeKRAFT (YaKT)</h1>
 </p>
 
