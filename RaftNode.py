@@ -40,8 +40,10 @@ class RaftNode:
     
     def election_timeout_process(self): 
         self.term += 1
-        
-        # some function to send vote request to other nodes
+        self.voteCount = 1
+        # have to add majority condition here
+        self.role = CANDIDATE
+        # send vote request to all other nodes
 
     
         
