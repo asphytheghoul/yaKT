@@ -1,7 +1,7 @@
 <p align="center">
 <img src="assets/raft.jpg" width="300" height="300" alt="RAFT"/>
 <img src="assets/yacht.jpg" width="300" height="300" alt="YACHT"/>
-  <h1>Yet Another Kraft - YeKRAFT (YaKT)</h1>
+  <h1 align="center">Yet Another Kraft - YeKRAFT (YaKT)</h1>
 </p>
 
 ## Overview
