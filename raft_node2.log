@@ -1,0 +1,10 @@
+2023-11-20 18:08:41,667 [18564] INFO - __main__ - Starting leader node on port 5010
+2023-11-20 18:09:21,204 [19592] INFO - __main__ - Starting follower node on port 5020
+2023-11-20 18:10:00,402 [18800] INFO - __main__ - Metadata received and stored successfully, metadata: {'ttl': {}}
+2023-11-20 18:10:30,832 [2924] INFO - __main__ - Broker registered successfully with information: {'internalUUID': '4a44ed29-adfb-4a8b-b426-b886388b4c12', 'brokerId': 1, 'brokerHost': '', 'brokerPort': '', 'securityProtocol': '', 'brokerStatus': '', 'rackId': '', 'epoch': 0, 'timestamp': '2023-11-20_18:10:30'}
+2023-11-20 18:10:43,880 [2368] INFO - __main__ - Metadata received and stored successfully, metadata: {'ttl': {}, 'RegisterBrokerRecord': [{'internalUUID': '4a44ed29-adfb-4a8b-b426-b886388b4c12', 'brokerId': 1, 'brokerHost': '', 'brokerPort': '', 'securityProtocol': '', 'brokerStatus': '', 'rackId': '', 'epoch': 0, 'timestamp': '2023-11-20_18:10:30'}]}
+2023-11-20 18:10:56,833 [14988] INFO - __main__ - Metadata received and stored successfully, metadata: {'ttl': {}, 'RegisterBrokerRecord': [{'internalUUID': '4a44ed29-adfb-4a8b-b426-b886388b4c12', 'brokerId': 1, 'brokerHost': '', 'brokerPort': '', 'securityProtocol': '', 'brokerStatus': '', 'rackId': '', 'epoch': 0, 'timestamp': '2023-11-20_18:10:30'}]}
+2023-11-20 18:15:18,020 [6696] INFO - __main__ - Starting leader node on port 5010
+2023-11-20 18:15:35,888 [1852] INFO - __main__ - Starting follower node on port 5020
+2023-11-20 18:17:09,877 [2272] INFO - __main__ - Broker registered successfully with information: {'internalUUID': 'fb6cc4ef-ca17-49f2-9357-82ffa009c334', 'brokerId': 0, 'brokerHost': '', 'brokerPort': '', 'securityProtocol': '', 'brokerStatus': '', 'rackId': '', 'epoch': 0, 'timestamp': '2023-11-20_18:17:09'}
+2023-11-20 18:19:47,445 [10200] INFO - __main__ - Metadata received and stored successfully, metadata: {'ttl': {}, 'RegisterBrokerRecord': [{'internalUUID': 'fb6cc4ef-ca17-49f2-9357-82ffa009c334', 'brokerId': 0, 'brokerHost': '', 'brokerPort': '', 'securityProtocol': '', 'brokerStatus': '', 'rackId': '', 'epoch': 0, 'timestamp': '2023-11-20_18:17:09'}]}
