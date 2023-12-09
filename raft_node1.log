@@ -1,0 +1,11 @@
+2023-11-20 09:19:35,464 [26424] INFO - __main__ - Metadata received and stored successfully: {'ttl': {}}
+2023-11-20 09:48:20,030 [15968] INFO - __main__ - Starting leader node on port 5010
+2023-11-20 09:48:24,593 [2192] INFO - __main__ - Starting follower node on port 5020
+2023-11-20 09:50:59,426 [24520] INFO - __main__ - Starting leader node on port 5010
+2023-11-20 09:51:02,727 [5940] INFO - __main__ - Starting follower node on port 5020
+2023-11-20 09:51:23,770 [25764] INFO - __main__ - Metadata received and stored successfully
+2023-11-20 09:52:21,217 [25812] INFO - __main__ - Broker registered successfully
+2023-11-20 09:53:00,554 [20324] INFO - __main__ - Topic created successfully
+2023-11-20 09:53:20,952 [23688] INFO - __main__ - Partition created successfully
+2023-11-20 09:53:57,809 [23368] INFO - __main__ - Metadata received and stored successfully
+2023-11-20 09:54:42,205 [5952] INFO - __main__ - Topic created successfully

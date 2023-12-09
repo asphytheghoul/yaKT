@@ -1,7 +1,7 @@
 <p align="center">
 <img src="assets/raft.jpg" width="300" height="300" alt="RAFT"/>
 <img src="assets/yacht.jpg" width="300" height="300" alt="YACHT"/>
-  <h1>Yet Another Kraft - YeKRAFT (YaKT)</h1>
+  <h1 align="center">Yet Another Kraft - YeKRAFT (YaKT)</h1>
 </p>
 
 ## Overview
@@ -29,30 +29,41 @@ YeKRAFT offers a range of features and capabilities, including:
 To get started with YeKRAFT, follow these installation steps:
 
 ```
-pip install yekraft
+pip install kraft
 ```
 
-### 2. Running YeKRAFT
+### 2. Running YeKRAFT with 3 nodes
 ```
-from yekraft import YeKRAFTServer
-```
-# Create and configure the server
-```
-server = YeKRAFTServer()
-server.configure({
-    # Configuration options here
-})
+python raft_node.py -i 1 -a 127.0.0.1:5010
 
-# Start the server
-server.run()
+python raft_node.py -i 2 -a 127.0.0.1:5020 -e 1/127.0.0.1:5010
+
 ```
 
 ### 3. Using the API
 YeKRAFT exposes a simple and intuitive API for managing metadata records. Here are some common API endpoints:
 
-- POST /create_topic: Create a new Kafka topic.
-- POST /register_broker: Register a Kafka broker.
 - GET /get_metadata: Retrieve metadata information.
+
+- POST /register_broker: Register a Kafka broker.
+- GET /get_all_brokers: Retrieve all registered brokers.
+- GET /get_broker/{broker_id}: Retrieve a specific broker.
+- PUT /delete_broker/{broker_id}: Delete a specific broker.
+
+- POST /create_topic: Create a new Kafka topic.
+- GET /get_topic/{topic_name}: Retrieve a specific topic.
+
+- POST /create_partition: Create a new partition.
+- GET /get_partitions : Retrieve all partitions.
+
+- POST /register_producer/{broker_id}: Register a Kafka producer with a specific broker.
+- GET /get_producer_ids: Retrieve all registered producer IDs.
+
+- PUT /broker_registration_change : Update the registration status of a broker.
+
+- GET /broker_mgmt/{timestamp}: Retrieve broker management information.
+
+- GET /client_mgmt/{timestamp}: Retrieve client management information.
 
 ## Conclusion
 Yet Another Kraft, or YeKRAFT (YaKT), is a promising solution for enhancing the metadata management of Kafka with a robust, highly available, and open-source system. It simplifies the administration of Kafka's metadata and is suitable for a wide range of applications, from data streaming to event processing.
